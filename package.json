@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "semana omnistack",
   "main": "index.js",
+ 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/M4ster3001/Omni11.git"
-  },
-  "author": "Aldo Junior",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/M4ster3001/Omni11/issues"
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/M4ster3001/Omni11#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
