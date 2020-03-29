@@ -9,14 +9,14 @@ const profileController = require( './controllers/profileController' );
 const sessionController = require( './controllers/sessionController' );
 
 //Session
-routes.get( '/session', sessionController.create );
+routes.post( '/sessions', sessionController.create );
 
 //Ongs
 routes.get( '/ongs', ongController.index );
 routes.post( '/ongs', ongController.create );
 
 //Profile
-routes.get( '/profile', profileController.index );
+routes.get( '/profiles', profileController.index );
 
 //Incidents
 routes.get( '/incidents', incidentsController.index );
